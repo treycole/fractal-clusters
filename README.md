@@ -1,6 +1,6 @@
 # Fractal clusters
 
-Simulationn of Diffusion-Limited Aggregation (DLA) and Eden-type growth models to generate fractal clusters.
+Simulation of Diffusion-Limited Aggregation (DLA) and Eden-type growth models to generate fractal clusters.
 
 ## Overview
 
@@ -8,18 +8,20 @@ Diffusion-limited aggregation (DLA) describes the stochastic formation of fracta
 
 This project constructs DLA clusters in different environments and extracts structural properties such as the fractal (Hausdorff) dimension, diffusion constant, and correlation functions. Results are compared against known literature.
 
-![DLA_rainbow](figs/DLA_cluster_10000_walkers_rainbow.png)
+![DLA_rainbow](examples/gifs/DLA_cluster__animation_1000.gif)
 
-The Eden model is another stochastic growth model used to describe dielectric breakdown, bacterial proliferation, and tumor interface dynamics. In the dielectric breakdown model (DBM), the local electric potential influences the probability distribution for where the cluster grows.
+The Eden model is another stochastic growth model used to describe dielectric breakdown, bacterial proliferation, and tumor interface dynamics. 
 
-![Eden_rainbow](figs/Eden_cluster_100000_cells_rainbow.png)
+![Eden_rainbow](examples/gifs/Eden_cluster_animation_950.gif)
+
+In the dielectric breakdown model (DBM), the local electric potential influences the probability distribution for where the cluster grows.
 
 ## Literature
 
-- [Witten, Sander. (1981). "Diffusion-Limited Aggregation, a Kinetic Critical Phenomenon". Physical Review Letters. 47 (19). doi: 10.1103/PhysRevLett.47.1400.](https://journals-aps-org.tudelft.idm.oclc.org/prl/abstract/10.1103/PhysRevLett.47.1400)
-- [Witten, Sander. (1983). "Diffusion-Limited Aggregation". Physical Review B. 27 (9). doi: 10.1103/PhysRevB.27.5686.](https://journals-aps-org.tudelft.idm.oclc.org/prb/abstract/10.1103/PhysRevB.27.5686)
-- [Niemeyer, Pietronero, Wiesmann. (1984). "Fractal Dimension of Dielectric Breakdown". Physical Review Letters. 52 (12). doi: 10.1103/PhysRevLett.52.1033](https://journals-aps-org.tudelft.idm.oclc.org/prl/pdf/10.1103/PhysRevLett.52.1033)
-
+- [Witten, Sander. (1981). "Diffusion-Limited Aggregation, a Kinetic Critical Phenomenon". Physical Review Letters. 47 (19). doi: 10.1103/PhysRevLett.47.1400.](https://doi.org/10.1103/PhysRevLett.47.1400)
+- [Witten, Sander. (1983). "Diffusion-Limited Aggregation". Physical Review B. 27 (9). doi: 10.1103/PhysRevB.27.5686.](https://doi.org/10.1103/PhysRevB.27.5686)
+- [Niemeyer, Pietronero, Wiesmann. (1984). "Fractal Dimension of Dielectric Breakdown". Physical Review Letters. 52 (12). doi: 10.1103/PhysRevLett.52.1033]( https://doi.org/10.1103/PhysRevLett.52.1033)
+  
 ## Relevant references
 
 - https://en.wikipedia.org/wiki/Diffusion-limited_aggregation
