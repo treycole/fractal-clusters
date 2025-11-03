@@ -1,3 +1,29 @@
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib import animation
+from matplotlib.widgets import Slider
+from matplotlib import cm
+
+def euc_dist_sq(x, y):
+    """
+    Calculates the squared Euclidean distance
+
+    Parameters
+    ----------
+    x : np.ndarray
+        x-coordinates
+    y : np.ndarray
+        y-coordinates
+
+    Returns
+    ----------
+    dist_sq : np.ndarray
+        squared Euclidean distance
+
+    """
+    dist_sq = x**2 + y**2
+    return dist_sq
+
 def animate_cluster(cluster, slider=False, text=False, border=False, interval=1, perimeter=None, phi=None):
     """
     Animates the cluster growth

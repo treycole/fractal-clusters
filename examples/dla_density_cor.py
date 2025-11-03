@@ -1,4 +1,4 @@
-import fractal as frac
+import fractal_clusters.fractal as frac
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import optimize

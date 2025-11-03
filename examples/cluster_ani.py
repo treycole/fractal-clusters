@@ -1,4 +1,4 @@
-import animations as ani
+import fractal_clusters.animations as ani
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, PillowWriter
